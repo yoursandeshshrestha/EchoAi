@@ -64,6 +64,12 @@
   color: black;
 }
 
+@media (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 @media (max-width: 600px) {
   .sidebar {
     display: none;
